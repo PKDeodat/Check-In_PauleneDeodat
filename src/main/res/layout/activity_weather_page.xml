@@ -51,11 +51,7 @@
             android:layout_height="wrap_content" android:orientation="vertical"
             android:layout_alignParentBottom="true">
 
-            <Button
-                android:id="@+id/calendarbutton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Calendar" />
+
 
             <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
                 android:orientation="horizontal" android:weightSum="3">
@@ -138,14 +134,15 @@
                     android:orientation="vertical" android:layout_weight="1"
                     android:gravity="center" android:padding="8dp"
                     android:background="#3CF1EBF1">
-                    <ImageView android:layout_width="25dp" android:layout_height="25dp"
-                        android:src="@drawable/info" />
                     <Space android:layout_width="wrap_content" android:layout_height="5dp"/>
-                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                        android:textSize="12dp" android:text="Created By"/>
+
                     <TextView android:id="@+id/about" android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" android:textSize="14dp"
-                        android:text="Paulene D"/>
+                        android:layout_height="wrap_content" android:textSize="14dp"/>
+                    <Button
+                        android:id="@+id/calendarbutton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Calendar" />/>
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
