@@ -22,6 +22,7 @@ class WeatherPage : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_weather_page)
+
         val button=findViewById<Button>(R.id.calendarbutton)
         button.setOnClickListener{
             val intent = Intent(this, CalendarPage::class.java)
